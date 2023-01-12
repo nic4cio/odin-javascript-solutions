@@ -2,7 +2,7 @@ const palindromes = function (string) {
     let desiredString = '';
     for(let i = string.length - 1; i >= 0; i--){
         desiredString = desiredString + string[i];
-        //console.log(desiredString);
+        console.log(desiredString);
     }
 
     if(string.toUpperCase() === desiredString.toUpperCase()){
